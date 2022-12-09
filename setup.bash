@@ -7,10 +7,10 @@ echo "load-module module-raop-discover" | sudo tee -a $HOME/.config/pulse/defaul
 echo "# load-module module-raop-sink" | sudo tee -a $HOME/.config/pulse/default.pa.d
 
 flatpak install spotify 
-yes | sudo pacman -S discord 
+yes | pacman -S discord 
 
-yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
-yes | sudo  yay -S smartgit  
+yes | pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
+yes | yay -S smartgit  
 
 git clone git@github.com:OUXT-Polaris/ouxt_automation.git
 mkdir new-tv
