@@ -10,6 +10,7 @@ flatpak install spotify -y
 yes | sudo pacman -S discord 
 
 yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose brasero baobab
+yes | sudo pacman -S budgie-desktop gnome-control-center plymouth
 yes | yay -S smartgit  
 
 git clone git@github.com:OUXT-Polaris/ouxt_automation.git
