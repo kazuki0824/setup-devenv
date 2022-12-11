@@ -6,6 +6,9 @@ echo "load-module module-zeroconf-discover" | sudo tee -a $HOME/.config/pulse/de
 echo "load-module module-raop-discover" | sudo tee -a $HOME/.config/pulse/default.pa.d
 echo "# load-module module-raop-sink" | sudo tee -a $HOME/.config/pulse/default.pa.d
 
+sudo pacman -Syy
+sudo pacman -Syu
+
 flatpak install spotify -y
 yes | sudo pacman -S discord 
 
