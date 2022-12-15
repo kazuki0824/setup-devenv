@@ -9,8 +9,8 @@ echo "# load-module module-raop-sink" | sudo tee -a $HOME/.config/pulse/default.
 sudo pacman -Syy
 sudo pacman -Syu
 
+yes | sudo pacman -S discord flatpak
 flatpak install spotify -y
-yes | sudo pacman -S discord 
 
 yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
 yes | sudo pacman -S budgie-desktop budgie-desktop-view manjaro-budgie-settings budgie-wallpapers dconf-editor gnome-control-center plymouth brasero baobab
