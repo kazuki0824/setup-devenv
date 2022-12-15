@@ -23,4 +23,4 @@ git clone git@github.com:kazuki0824/recisdb-rs.git --recursive
 git clone git@github.com:kazuki0824/arib-recorder.git --recursive
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -t stable -y
-source '$HOME/.cargo/env' >> ~/.bashrc
+echo 'source $HOME/.cargo/env' >> "$HOME/.bashrc"
