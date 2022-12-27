@@ -9,14 +9,13 @@ echo "# load-module module-raop-sink" | sudo tee -a $HOME/.config/pulse/default.
 sudo pacman -Syy
 sudo pacman -Syu
 
-yes | sudo pacman -S xdg-desktop-portal-gnome discord flatpak
+yes | sudo pacman -S xdg-desktop-portal-gnome discord flatpak yay
 flatpak install spotify -y
 
 yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
-yes | sudo pacman -S brasero baobab
+yes | sudo pacman -S brasero baobab yubikey-manager-qt
 yes | yay -S smartgit  
 
-git clone git@github.com:OUXT-Polaris/ouxt_automation.git
 mkdir new-tv
 cd new-tv/
 git clone git@github.com:kazuki0824/recisdb-rs.git --recursive
