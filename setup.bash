@@ -13,7 +13,7 @@ yes | sudo pacman -S xdg-desktop-portal-gnome discord flatpak yay
 flatpak install spotify -y
 
 yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
-yes | sudo pacman -S brasero baobab yubikey-manager-qt
+yes | sudo pacman -S brasero baobab yubikey-manager-qt keybase-gui kbfs
 yes | yay -S smartgit teamviewer
 
 mkdir new-tv
