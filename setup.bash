@@ -14,7 +14,7 @@ flatpak install spotify -y
 
 yes | sudo pacman -S avahi pulseaudio-zeroconf extra/pulseaudio-rtp docker docker-compose
 yes | sudo pacman -S brasero baobab yubikey-manager-qt
-yes | yay -S smartgit  
+yes | yay -S smartgit teamviewer
 
 mkdir new-tv
 cd new-tv/
