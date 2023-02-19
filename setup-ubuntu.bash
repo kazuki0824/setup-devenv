@@ -22,10 +22,10 @@ sudo apt upgrade -y
 sudo snap install spotify
 
 sudo apt install pulseaudio-module-raop -y
-sudo apt install docker-ce docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras -y
+sudo apt install docker-ce docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras uidmap -y
 sudo apt install brasero baobab yubikey-personalization-gui -y
 dockerd-rootless-setuptool.sh install
-echo 'export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock' >> /home/{{ansible_user}}/.bashrc
+echo 'export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock' >> /home/$USER/.bashrc
 
 
 eval `ssh-agent`
